@@ -20,7 +20,7 @@ Design Update from Xymon 4.3.30 (graphics, CSS etc.)
 
 #### Step four:
 1. store graphics 
-  - Create a new folder under **~./server/www/gifs** with the name new
+  - Create a new folder under **~./server/www/gifs** with the name **new**
   - Unpack the file graphics.zip in the folder new
 2. Store xymonbody.css and xymonmenu-new.css
   - Copy the xymonbody.css into the folder **~./server/www/gifs/new/**
