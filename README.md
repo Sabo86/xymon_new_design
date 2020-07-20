@@ -1,6 +1,9 @@
 # xymon_new_design
 Design Update from Xymon 4.3.30 (graphics, CSS etc.)
 
+<img src="https://raw.githubusercontent.com/Sabo86/xymon_new_design/master/xymon_new_design.png" style="max-width:100%;">
+
+
 
 # First step: 
 - Download Xymon (https://sourceforge.net/projects/xymon/)
@@ -35,7 +38,7 @@ Design Update from Xymon 4.3.30 (graphics, CSS etc.)
 
 # e.g. standard stdnormal_header fileo:
 
-
+<code>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
 <HTML>
 <HEAD>
@@ -80,10 +83,10 @@ Design Update from Xymon 4.3.30 (graphics, CSS etc.)
 		</TR>
 		</TABLE>
 </div>		
-
+</code>
 
 # Adapted file:
-
+<code>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
 <HTML>
 <HEAD>
@@ -126,3 +129,4 @@ Design Update from Xymon 4.3.30 (graphics, CSS etc.)
 		</TABLE>
 </div>		
 <br>
+</code>
