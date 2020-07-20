@@ -14,22 +14,23 @@ Design Update from Xymon 4.3.30 (graphics, CSS etc.)
 #### Step three:
 - Now Xymon should be installed and running
 - To customize the graphic change to the folder where you unzipped Xymon (first step)
-- ~/xymon-4.3.30/xymongen you copy the file pagegen.c 
+- **~/xymon-4.3.30/xymongen** you copy the file **pagegen.c** 
 - Of course you can adjust the pagegen.c before
-- Now you execute "make" and "make install" again as described in "Building Xymon
+- Now you execute **make** and **make install** again as described in **Building Xymon**
 
 #### Step four:
 1. store graphics 
-  - Create a new folder under ~./server/www/gifs with the name new
+  - Create a new folder under **~./server/www/gifs** with the name new
   - Unpack the file graphics.zip in the folder new
 2. Store xymonbody.css and xymonmenu-new.css
-  - Copy the xymonbody.css into the folder ~./server/www/gifs/new/
-  - Copy the xymonmenu-new.css into the folder ~./server/www/menu/
-3. enter everything in the ~./server/etc/xymonserver.cfg
-  - Modify the following lines in xymonserver.cfg:
+  - Copy the xymonbody.css into the folder **~./server/www/gifs/new/**
+  - Copy the xymonmenu-new.css into the folder **~./server/www/menu/**
+3. enter everything in the **~./server/etc/xymonserver.cfg**
+  - Modify the following lines in *xymonserver.cfg*:
   
-  XYMONSKIN="$XYMONSERVERWWURL/gifs/new"	  
-  XYMONBODYMENUCSS="$XYMONMENUSKIN/xymonmenu-new.css"
+  `XYMONSKIN="$XYMONSERVERWWURL/gifs/new"`	
+  
+  `XYMONBODYMENUCSS="$XYMONMENUSKIN/xymonmenu-new.css"`
 
 
 
