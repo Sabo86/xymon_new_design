@@ -33,7 +33,8 @@ Design Update from Xymon 4.3.30 (graphics, CSS etc.)
 # Step five:
 - ~/server/web/ customize footer and header files
 
-e.g. standard stdnormal_header fileo:
+# e.g. standard stdnormal_header fileo:
+
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
 <HTML>
