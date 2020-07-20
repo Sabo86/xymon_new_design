@@ -35,7 +35,7 @@ Design Update from Xymon 4.3.30 (graphics, CSS etc.)
 
 
 #### Step five:
-- ~/server/web/ customize footer and header files
+- **~/server/web/** customize footer and header files
 
 ##### e.g. standard stdnormal_header fileo:
 
