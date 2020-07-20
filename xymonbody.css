@@ -1,0 +1,226 @@
+/* body classes definitions */
+body { 
+	color: #D8D8BF; 
+	background-color: black;
+	background-repeat: repeat-y;
+}
+
+
+	
+	.newtable { 
+		display: table;
+		min-width: 500px;
+		text-align:center;
+		border-width: 5px;
+		border-style: solid;
+		border-color: #1C6EA4;
+		-webkit-border-radius: 10px 10px 10px 10px;
+		-moz-border-radius: 10px 10px 10px 10px;
+		border-radius: 10px 10px 10px 10px;				
+		background: #2B2B2B;
+	}
+	.table-row {
+		
+		display: table-row; 
+		vertical-align: middle; 
+		text-align:center;
+		border-style: none;
+		background: #000000;
+		color: #FFFFE0;
+		
+	}
+	.table-cell {
+		display: table-cell; 
+		text-align:center;
+		vertical-align: middle; 	
+		
+		border-bottom: 5px solid #1C6EA4;
+	}	
+
+	.divTableBody {
+		display: table-row-group;
+	}
+	
+ /* Kopfzeile und Fußzeile und Überschriften */ 	
+ 
+	.TableHeading {		
+		display: table-header-group;
+		font-weight: bold;
+		vertical-align: middle; 
+		text-align:center;			
+	}
+	.TableFoot {			
+		display: table-footer-group;
+		background: #000000;
+		font-family: Tahoma, Verdana, sans-serif;	
+		font-size: 8pt;			
+		text-align:center;
+		vertical-align: middle; 		
+		display: table-cell;	
+	}
+				
+		
+		.table_projekt_name{
+			color:#66CDAA; 
+			font-family: Tahoma, Verdana, sans-serif;			
+			font-size: 15pt;
+			font-weight:bold;
+			background-color: #1C6EA4;
+			border-style: none;
+			text-align:center;
+			vertical-align: middle;
+		}
+		
+		.table_first_name{
+			color:#66CDAA; 
+			font-family: Tahoma, Verdana, sans-serif;			
+			font-size: 12pt;
+			font-weight:bold;
+			background-color: #1C6EA4;
+			border-style: none;
+			text-align:center;
+			vertical-align: middle;
+		}
+		
+		.mainpage_font
+		{
+			color:#FFFFE0; 
+			font-family: Tahoma, Verdana, sans-serif;			
+			font-size: 12pt;
+			font-weight:bold;
+		}
+		
+		
+		.table_th{
+		background-color: #1C6EA4;
+		}
+
+		a:link{	COLOR: #FFFFE0; }
+		a:hover{ COLOR: #63B8FF; }
+		a:visited{ COLOR: #FFFFE0; }
+                .cellhead {
+		width: auto;
+                }
+
+/* Spalten kopf */		
+		a.spalten_link:link{ 
+			font-family: Tahoma, Verdana, sans-serif; 
+			COLOR: #FFFFE0;
+			font-size: 10pt;
+			text-decoration: underline; 		
+			text-align:center;
+			vertical-align: middle; 				
+		}
+		a.spalten_link:hover{ COLOR: #63B8FF; }
+		a.spalten_link:visited:link{ COLOR: #FFFFE0;	}
+		
+/* Zeilen kopf */	
+              a.zeilen_link:link{ 
+			font-family: Tahoma, Verdana, sans-serif; 
+			COLOR: #FFFFE0;
+			font-size: 10pt;
+			font-weight: bold;		
+			text-align:center;
+			vertical-align: middle; 		
+			
+		}
+		a.zeilen_link:hover{ COLOR: #63B8FF; }
+		a.zeilen_link:visited:link{ COLOR: #FFFFE0;	}
+
+		
+		
+		
+	
+/* --------- Inhalt der Tabelle --------------*/		
+		table.darkTable
+		{
+			font-family: Tahoma, Geneva, sans-serif;			
+			background-color: #000000;				
+			text-align: center;
+			border-collapse: collapse;
+		}
+		
+		table.darkTable td, table.darkTable th {
+		  border: 0px solid #4A4A4A;
+		  width: 45px;
+		}
+		table.darkTable tbody td {
+		  font-size: 13px;
+		  color: #FFFFFF;
+		}
+		table.darkTable tr:nth-child(even) {
+		  background: #2B2B2B;
+		}
+		
+		
+		table.firstTable
+		{
+			font-family: Tahoma, Geneva, sans-serif;			
+			background-color: #000000;				
+			text-align: center;
+			border-collapse: collapse;
+			width: 100%;
+		}
+		
+		table.firstTable td, table.darkTable th {
+		  border: 0px solid #4A4A4A;
+		
+		}
+		table.firstTable tbody td {
+		  font-size: 13px;
+		  color: #FFFFFF;
+		}
+		table.firstTable tr:nth-child(even) {
+		  background: #2B2B2B;
+		}
+
+.line{
+		text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        color: #C0C0C0;
+		border-bottom: 2px solid #444444;
+        border: 1px solid #AAAAAA;
+}
+
+
+.green {
+	background-image: url(bkg-green.gif);
+}
+
+.yellow {
+	background-image: url(bkg-yellow.gif);
+}
+
+.red {
+	background-image: url(bkg-red.gif);
+}
+
+.purple {
+	background-image: url(bkg-purple.gif);
+}
+
+.blue {
+	background-image: url(bkg-blue.gif);
+}
+
+.clear {
+	background-image: url(bkg-clear.gif);
+}
+
+.webpage_footer { 
+	width: 70%; 
+	margin: 0 auto; 
+	-webkit-border-radius: 15px; 
+	-moz-border-radius: 15px; 
+	border-radius: 8px; 
+
+        background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+        background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+        background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+
+	color: #ffffff; 
+	font-size: 10px; 
+	font-family:arial, "lucida console", 
+	sans-serif; /* Schriftart */
+}
