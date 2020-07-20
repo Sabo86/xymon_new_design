@@ -5,20 +5,20 @@ Design Update from Xymon 4.3.30 (graphics, CSS etc.)
 
 
 
-# First step: 
+###### First step: 
 - Download Xymon (https://sourceforge.net/projects/xymon/)
 
-# Step two:
+###### Step two:
 - install Xymon as described here (https://xymon.sourceforge.io/xymon/help/install.html)
 
-# Step three:
+###### Step three:
 - Now Xymon should be installed and running
 - To customize the graphic change to the folder where you unzipped Xymon (first step)
 - ~/xymon-4.3.30/xymongen you copy the file pagegen.c 
 - Of course you can adjust the pagegen.c before
 - Now you execute "make" and "make install" again as described in "Building Xymon
 
-# Step four:
+###### Step four:
 1. store graphics 
   - Create a new folder under ~./server/www/gifs with the name new
   - Unpack the file graphics.zip in the folder new
@@ -33,12 +33,12 @@ Design Update from Xymon 4.3.30 (graphics, CSS etc.)
 
 
 
-# Step five:
+###### Step five:
 - ~/server/web/ customize footer and header files
 
-# e.g. standard stdnormal_header fileo:
+###### e.g. standard stdnormal_header fileo:
 
-<pre><code>
+`` `
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
 <HTML>
 <HEAD>
@@ -83,9 +83,9 @@ Design Update from Xymon 4.3.30 (graphics, CSS etc.)
 		</TR>
 		</TABLE>
 </div>		
-</code></pre>
+`` `
 
-# Adapted file:
+###### Adapted file:
 <code>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
 <HTML>
@@ -108,7 +108,7 @@ Design Update from Xymon 4.3.30 (graphics, CSS etc.)
 <BODY class="&XYMWEBBACKGROUND">
 
 &XYMONBODYHEADER
-
+</code>
 <div class="webpage_header">
 	
 		<TABLE SUMMARY="Topline" WIDTH="100%">
@@ -129,4 +129,4 @@ Design Update from Xymon 4.3.30 (graphics, CSS etc.)
 		</TABLE>
 </div>		
 <br>
-</code>
+
