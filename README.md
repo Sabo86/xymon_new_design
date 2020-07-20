@@ -38,7 +38,7 @@ Design Update from Xymon 4.3.30 (graphics, CSS etc.)
 
 # e.g. standard stdnormal_header fileo:
 
-<code>
+<pre><code>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
 <HTML>
 <HEAD>
@@ -83,7 +83,7 @@ Design Update from Xymon 4.3.30 (graphics, CSS etc.)
 		</TR>
 		</TABLE>
 </div>		
-</code>
+</code></pre>
 
 # Adapted file:
 <code>
